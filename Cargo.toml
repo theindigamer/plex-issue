@@ -1,0 +1,16 @@
+[package]
+name = "plex-issue"
+version = "0.1.0"
+authors = ["theindigamer <theindigamer15@gmail.com>"]
+build = "build.rs"
+
+[dependencies]
+lalrpop-util = {git = "https://github.com/nikomatsakis/lalrpop", branch = "master"}
+regex = "0.2.1"
+plex = "^0.2.2"
+
+[build-dependencies]
+lalrpop = {git = "https://github.com/nikomatsakis/lalrpop", branch = "master"}
+
+[dev-dependencies]
+plex = "^0.2.2"
